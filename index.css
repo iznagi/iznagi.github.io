@@ -1,6 +1,5 @@
 #branding{
-    width: 60%; /*横幅指定*/
-    margin-left: 20%; /*左端から20%右側に動かす*/
+    width: 100%; /*横幅指定*/
     background-color: #313131; /*背景色の指定*/
     overflow: hidden; /*おまじない*/
 }
