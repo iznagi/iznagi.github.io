@@ -1,7 +1,7 @@
 .header_img{
 	width: 100%;
     height: 480px;
-	background: url('image/remill.png');
+	background: url('images/remill.png');
 }
 
 h1{
@@ -12,4 +12,16 @@ h1{
 p{
 	color:blue;
 	font-size:40px;
+}
+
+header {　←ヘッダー
+background-image:url(images/remill.png);
+}
+
+#sidenavi {　←サイドナビ
+background-image:url(images/remill.png);
+}
+
+footer {　←フッター
+background-image:url(images/remill.png);
 }
