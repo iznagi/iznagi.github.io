@@ -44,8 +44,6 @@
   margin-bottom: 48px;
 }
 
-
-
 .works {
   width: 1000px;
   margin: 32px auto;
@@ -96,7 +94,7 @@
 
 .keyvisual a {/*aタグを画像の真ん中に*/
   position: absolute;
-  top: 28.2%;
+  top: 31.8%;
   left: 50%;
   -ms-transform: translate(-50%,-50%);
   -webkit-transform: translate(-50%,-50%);
@@ -147,7 +145,8 @@
 }
 
 .sub_text {
-  font-weight: bold;
-  font-size: 18px;
-  color: #CCCCCC;
+    font-weight: bold;
+    font-size: 18px;
+    color: #CCCCCC;
 }
+
