@@ -103,11 +103,11 @@ footer small{
 #index h1 {
     font-size: 80px;
     text-align: right;
+    font-weight: normal;
     line-height: 2;
     color: #ffffff;
     margin-bottom: 50px;
     font-family: "Sawarabi Mincho"; 
-    font-weight: normal;
 }
 
 #index p {
