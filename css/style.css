@@ -312,6 +312,10 @@ a img:hover {
     body {
      font-size: 3.5vw;
     }
+
+    #index h1 {
+        font-size: 30px;
+    }
     
     h1 {
       font-size: 7.2vw;
@@ -348,7 +352,16 @@ a img:hover {
       margin-top: 40px;
       padding: 35px 0 0;
     }
-    
+
+    #index .content {
+        width: 100%;
+    }
+        
+    #index #wrap {
+        margin-top: 40px;
+        padding: 35px 0 0;
+    }
+
     .content {
       width: 100%;
     }
@@ -361,8 +374,7 @@ a img:hover {
     
     h2 img {
       max-width: 100%;
-    }
-    
+    } 
     
     .sidebar {
       width: auto;
