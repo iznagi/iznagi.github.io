@@ -71,6 +71,9 @@ header {
 
 #wrap {
     clear: both;
+    background-color: #ffffff;
+    margin-top: 220px;
+    padding: 35px 0;
 }
 
 .content {
@@ -158,13 +161,6 @@ footer small{
     background-size: 100% auto;
 }
 
-#wrap {
-    clear: both;
-    background-color: #ffffff;
-    margin-top: 220px;
-    padding: 35px 0;
-}
-
 .main-cener {
     width: 940px;
     margin: 0 auto;
@@ -226,4 +222,42 @@ section {
 table {
     border-spacing: 0;
     border-collapse: collapse;
+}
+
+#portfolio {
+    background-image: url(../images/yuu.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+    background-size: 100% auto;
+}
+
+.main {
+    width: 700px;
+    margin: 0 10px;
+    float: left;
+}
+
+.sidebar {
+    width: 200px;
+    margin: 0 10px 0 30px;
+    float: right;
+    font-family: 'Bitter',serif;
+}
+
+.sidebar h2 {
+    margin-bottom: 10px;
+}
+
+.sidebar ul {
+    font-size: 16px;
+    margin-left: 20px;
+}
+
+.sidebar il a {
+    color: #333333;
+}
+
+a img:hover {
+    opacity: 0.8;
 }
