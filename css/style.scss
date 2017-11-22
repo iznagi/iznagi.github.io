@@ -20,6 +20,8 @@ body {
   color: #333333;
   font-size: 15px;
   line-height: 2;
+  animation: fadeIn 2s ease 0s 1 normal;
+  -webkit-animation: fadeIn 2s ease 0s 1 normal;
 }
 
 a {
@@ -87,10 +89,9 @@ footer {
 }
 
 #index {
-  background-image: url(../images/yayaya.png);    
-  background-color: #000;
+  background-image: url(../images/sousaku2.png);    
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: center 25%;
   background-attachment: fixed;
   background-size: cover;
   .content {
@@ -133,7 +134,7 @@ footer {
   display: block;
   text-align: center;
   line-height: 50px;
-  margin-top: 20px;
+  margin: 20px 0px 0px 150px;
   border-radius: 5px;
   border: 3px solid #ce3000;
   &:hover {
@@ -290,6 +291,16 @@ a img:hover {
   background-size: 100% auto;
 }
 
+@keyframes fadeIn {
+  0% {opacity: 0}
+  100% {opacity: 1}
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity: 0}
+  100% {opacity: 1}
+}
+
 @media screen and (max-width: 600px) {
   /* 画面サイズが600px以下☆DE☆適用 */
   body {
@@ -308,6 +319,7 @@ a img:hover {
     width: auto;
     margin: 0 5%;
   }
+
   .logo {
     float: none;
     margin-top: 60px;
