@@ -42,7 +42,7 @@ header {
   .global-nav li {
     float: left;
     margin: 0 20px;
-    font-size: 20px;
+    font-size: 25px;
     list-style: none;
     font-family: 'Josefin Slab', serif; }
     .global-nav li a {
@@ -75,7 +75,9 @@ footer {
   background-repeat: no-repeat;
   background-position: center 25%;
   background-attachment: fixed;
-  background-size: cover; }
+  background-size: cover;
+  background-color: #000;
+  animation: background-ani 10000s linear infinite; }
   #index .content {
     margin: 120px 0 50px 50px; }
   #index #wrap {
@@ -90,8 +92,7 @@ footer {
     color: #ffffff;
     margin-bottom: 100px;
     font-family: 'Raleway', sans-serif;
-    border: none;
-    transform: rotate(-2deg); }
+    border: none; }
   #index p {
     font-size: 16px;
     color: #ffffff; }
@@ -239,6 +240,11 @@ a img:hover {
     opacity: 0; }
   100% {
     opacity: 1; } }
+@keyframes background-ani {
+  0% {
+    background-position: 0% 0%; }
+  100% {
+    background-position: 10000% 10000%; } }
 @-webkit-keyframes fadeIn {
   0% {
     opacity: 0; }
