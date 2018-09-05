@@ -292,24 +292,6 @@ a img:hover {
   background-size: 100% auto;
 }
 
-@keyframes fadeIn {
-  0% {opacity: 0}
-  100% {opacity: 1}
-}
-
-@keyframes background-ani {
-  0% {
-    background-position: 0% 0%;
-  }
-  100% {
-    background-position: 10000% 10000%;
-  }
-}
-
-@-webkit-keyframes fadeIn {
-  0% {opacity: 0}
-  100% {opacity: 1}
-}
 
 @media screen and (max-width: 600px) {
   /* 画面サイズが600px以下☆DE☆適用 */
